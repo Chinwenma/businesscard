@@ -3,9 +3,9 @@ import './App.css';
 import About from './components/About';
 import Info from './components/Info';
 import Interest from './components/Interest';
-import images from'./images/profile.jpeg';
+import profile from'./images/profile.jpeg';
 
-function App() {
+export default function App() {
   return (
    <div>
     <Info />
@@ -15,4 +15,3 @@ function App() {
   );
 }
 
-export default App;
